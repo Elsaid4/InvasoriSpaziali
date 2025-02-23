@@ -5,6 +5,7 @@ function Nave(posX, posY, x, y, speed, img) {
     this.y      = y;
     this.speed  = speed;
     this.img    = img;
+    this.health = 100;
 
 
     this.show = function() {
